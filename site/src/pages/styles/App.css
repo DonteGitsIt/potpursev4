@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(13,101,18));
+}
+
+.main-page {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top-section {
+  display: flex;
+  
+  /* justify-content: flex-start;
+  align-items: space-between; */
+  background: none;
+ 
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#effectsFaq:hover{
+  cursor: pointer;
+  color:rgb(13,101,18);
+  text-decoration: underline;
+}
+
+#flavorsFaq:hover{
+   cursor: pointer;
+    color:rgb(13,101,18);
+    text-decoration: underline;
+}
+
