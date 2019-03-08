@@ -19,5 +19,6 @@
     "database": "peb2dfmh726rtwin",
     "host": "q68u8b2buodpme2n.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
+    
   }
 }
