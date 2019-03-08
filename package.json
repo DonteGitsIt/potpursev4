@@ -5,7 +5,7 @@
   "private": true,
   "proxy": "http://localhost:3001",
   "main" : "app.js",
-  
+
   "dependencies": {
     "axios": "^0.18.0",
     "jwt-decode": "^2.2.0",
@@ -31,12 +31,12 @@
     "uuid": "^3.2.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start1": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "server": "node app.js",
-    "client1": "npm start",
-    "start1": "concurrently \"nodemon app.js\" \"npm run client1\""
+    "client1": "npm start1",
+    "start": "concurrently \"nodemon app.js\" \"npm run client1\""
   }
 }
